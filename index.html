@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2 Language & Skills Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Collaborative Neutrals -->
+    <!-- Application Structure Plan: The SPA is a single-page, non-interactive informational website designed for teachers. The structure uses a clean, two-column layout to present the "Core Skills Profile" and "Key Language & Vocabulary" side-by-side. This was chosen over a simple linear document to make the information more scannable and digestible, allowing a collaborating teacher to quickly grasp the key learning objectives of the unit at a glance. The user flow is a simple top-to-bottom read. -->
+    <!-- Visualization & Content Choices: 
+        1. Unit Overview: Report Info (Unit title, question, and summary) -> Goal (Inform) -> Viz/Presentation Method (Large header text) -> Interaction (None) -> Justification (A strong header clearly establishes the topic) -> Library/Method (HTML/CSS with Tailwind).
+        2. Skills & Language: Report Info (Lists of skills, vocabulary, and grammar) -> Goal (Organize/Compare) -> Viz/Presentation Method (Two-column grid) -> Interaction (None) -> Justification (Placing skills and language side-by-side allows for easy comparison and shows how they relate) -> Library/Method (HTML/CSS with Tailwind).
+        3. Icons & Examples: Report Info (Lesson themes and example sentences) -> Goal (Visual Cue/Clarify) -> Viz/Presentation Method (Unicode characters and styled blockquotes) -> Interaction (None) -> Justification (Unicode icons add visual context without images, and styled examples make the target language stand out) -> Library/Method (HTML/CSS with Tailwind).
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <div class="container mx-auto px-4 py-8 md:py-12">
+
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900">Unit 2 Language & Skills Profile</h1>
+            <p class="mt-2 text-lg text-gray-500">A Guide for Cross-Curricular Collaboration</p>
+        </header>
+
+        <main class="bg-white p-6 md:p-8 rounded-xl shadow-lg max-w-6xl mx-auto">
+            
+            <div class="text-center border-b pb-6 mb-6">
+                <h2 class="text-2xl font-bold text-blue-600">Big Question: What is the Value of MONEY?</h2>
+                <p class="mt-2 text-gray-600 max-w-3xl mx-auto">This unit explores the world of money, consumerism, and decision-making. Students will analyze why prices change, how money shapes our plans, and how we can use money to help others.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Left Column: Core Skills -->
+                <div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <span class="text-2xl mr-2">🎯</span> Core Skills Profile
+                    </h3>
+                    <div class="space-y-4">
+                        <p><strong>Reading:</strong> Analyzing articles about economics and using mind maps to take notes.</p>
+                        <div>
+                            <p><strong>Speaking:</strong> Disagreeing politely and participating in group decision-making.</p>
+                            <p class="text-sm text-gray-500 mt-1 pl-4 border-l-2 border-gray-200 italic">"I hear what you're saying, but...", "I see what you mean, but in my opinion..."</p>
+                        </div>
+                        <p><strong>Listening:</strong> Understanding discussions about money, trade, and social causes.</p>
+                        <div>
+                            <p><strong>Writing:</strong> Presenting arguments objectively in an opinion essay.</p>
+                            <p class="text-sm text-gray-500 mt-1 pl-4 border-l-2 border-gray-200 italic">Using linkers like "However," and "In addition,".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Key Language & Vocab -->
+                <div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <span class="text-2xl mr-2">📚</span> Key Language & Vocabulary
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-semibold">1. Vocabulary Focus</p>
+                            <div class="text-sm text-gray-500 mt-1 space-y-2">
+                                <p><strong>Compound Adjectives:</strong> <code>sky-high</code>, <code>high-tech</code>, <code>must-have</code>, <code>hard-to-resist</code>, <code>world-wide</code>, <code>lightning-quick</code>.</p>
+                                <p><strong>Other themes:</strong> Money & trade, world problems & solutions.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-semibold">2. Target Language: Future Tenses</p>
+                            <div class="text-sm text-gray-500 mt-1 space-y-3">
+                                <div class="p-3 bg-gray-50 rounded-lg">
+                                    <p class="font-bold">The Future in the Past:</p>
+                                    <p class="italic mt-1">"He **was going to** get a degree..." (Past plans)</p>
+                                    <p class="italic">"An exchange program **would be** a huge adventure." (Past predictions)</p>
+                                    <p class="italic">"I **was leaving** for the USA in just three days!" (Past arrangements)</p>
+                                </div>
+                                <div class="p-3 bg-gray-50 rounded-lg">
+                                    <p class="font-bold">Future Tenses with *will*:</p>
+                                    <p class="italic mt-1">"I know I'**ll have** a job that I love." (Future Simple)</p>
+                                    <p class="italic">"I'**ll be making** a difference in the lives of patients." (Future Continuous)</p>
+                                    <p class="italic">"Next year, I'**ll have gotten** my degree." (Future Perfect)</p>
+                                    <p class="italic">"My friends **will have been working** for years." (Future Perfect Continuous)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center border-t pt-6 mt-8">
+                <h3 class="text-lg font-semibold text-gray-700">Cross-Curricular Collaboration Opportunities</h3>
+                <p class="mt-1 text-gray-500">Here are some specific ways you can connect your lessons to our English unit.</p>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
+
